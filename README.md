@@ -21,7 +21,7 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 |Train|英數字混合|![Image](./read_img/train01.jpg)|
 |驗證10|數字|![Image](./read_img/validation1001.jpg)|
 |驗證34|英數字混合（同Train）|![Image](./read_img/validation3401.jpg)|
-
+![Image](./read_img/train01.jpg)![Image](./read_img/validation1001.jpg)
 ### Train 及 Tensorboard 
   ![Image](./read_img/train_tensorboard.jpg)
   在Train data訓練完的結果無法準確辨識該區域內容，
@@ -34,6 +34,7 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 ### 英數字混和辨識
   ![Image](/read_img/validation3402.png)
   在英數字混和辨識中，準確率低
-  ![Image](/read_img/validation3403.png)
+ 
   ![Image](/read_img/validation3404.gif)
+  ![Image](/read_img/validation3403.png)
 
