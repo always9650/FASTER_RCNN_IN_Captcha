@@ -29,7 +29,7 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
   * 確定NN模型英數字辨識準確率
 ### NN模型數字辨識
   ![Image](./read_img/validation1002.gif)
-  ![Image](./read_img/validation1003.jpg)
+  ![Image](./read_img/validation1003.png)
   
 ### 英數字混和辨識
   ![Image](./)
