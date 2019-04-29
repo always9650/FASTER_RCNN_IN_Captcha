@@ -5,7 +5,7 @@
 [[心得] 以CNN實作台鐵驗證碼辨識](https://www.ptt.cc/bbs/Python/M.1514130793.A.2E1.html)
 
 看到網友在PTT上分享CNN驗證碼辨識，自己生成圖片、簡單的CNN，高辨識率，只能感嘆粗暴卻是有力的方法；但這個方法卻不能直接辨識其他英數混合的驗證碼，因此心生一計使用Faster R-CNN 方法，先選出目標的區域，在辨識該區域的內容。
-## Faster RCNN 
+
 
 ####  設備
 |Name|Description|
@@ -24,6 +24,12 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 |驗證10|數字|<img src="./read_img/validation1001.jpg" width="30%" height="30%">|
 |驗證34|英數字混合（同Train）|<img src="./read_img/validation3401.jpg" width="30%" height="30%">|
 
+|Item|part1|part2|part3|
+|---|---|---|---|
+|Data種類|英數字混合|數字|英數字混合（同part1）|
+|Train個數|12000張|30000張|35000張|
+|圖例| <img src="./read_img/train01.jpg" width="30%" height="30%">|<img src="./read_img/validation1001.jpg" width="30%" height="30%">|<img src="./read_img/validation3401.jpg" width="30%" height="30%">|
+## Faster RCNN 
 ### Train 及 Tensorboard 
   ![Image](./read_img/train_tensorboard.jpg)
   在Train data訓練完的結果無法準確辨識該區域內容，
