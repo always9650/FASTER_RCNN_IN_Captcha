@@ -32,6 +32,8 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
   ![Image](./read_img/validation1003.png)
   
 ### 英數字混和辨識
-  ![Image](./)
+  ![Image](/read_img/validation3402.png)
   在英數字混和辨識中，準確率低
+  ![Image](/read_img/validation3403.png)
+  ![Image](/read_img/validation3404.gif)
 
