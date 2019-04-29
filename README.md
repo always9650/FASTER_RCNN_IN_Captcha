@@ -16,12 +16,15 @@
 #### Data 
 仿照網友提供驗證碼規則，生成英數字混合之圖片（不包含O和I）
 LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
+
 |項目|總類|圖示|
 |---|---|---|
-|Train|英數字混合|![Image](./read_img/train01.jpg )|
-|驗證10|數字|![Image](./read_img/validation1001.jpg)|
-|驗證34|英數字混合（同Train）|![Image](./read_img/validation3401.jpg)|
+|Train|英數字混合| <img src="./read_img/train01.jpg" width="15%" height="15%">|
+|驗證10|數字|<img src="./read_img/validation1001.jpg" width="15%" height="15%">|
+|驗證34|英數字混合（同Train）|<img src="./read_img/validation3401.jpg" width="15%" height="15%">|
 
+
+<img src="./read_img/train01.jpg" width="5%" height="5%">|<img src="./read_img/validation1001.jpg" width="15%" height="15%">||<img src="./read_img/validation3401.jpg" width="15%" height="15%">|
 ### Train 及 Tensorboard 
   ![Image](./read_img/train_tensorboard.jpg)
   在Train data訓練完的結果無法準確辨識該區域內容，
