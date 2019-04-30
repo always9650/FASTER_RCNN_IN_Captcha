@@ -43,7 +43,7 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 ### 英數字未旋轉
   訓練結果
   ![Image](./read_img/validation3701.png)
-  Test結果
+  Test結果<br/>
   <img src="./read_img/validation3702.png" width="50%" height="50%" >
 
 ####  設備
