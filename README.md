@@ -27,19 +27,24 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 |Item|part1|part2|part3|
 |---|---|---|---|
 |Data種類|英數字混合|數字|英數字混合（同part1）|
-|Train個數|12000張|30000張|35000張|
+|Train個數|1,2000張|30,000張|35,000張|
 |圖例| <img src="./read_img/train01.jpg" width="30%" height="30%">|<img src="./read_img/validation1001.jpg" width="30%" height="30%">|<img src="./read_img/validation3401.jpg" width="30%" height="30%">|
+
 ## Faster RCNN 
 ### Train 及 Tensorboard 
   ![Image](./read_img/train_tensorboard.jpg)
-  在Train data訓練完的結果無法準確辨識該區域內容，
+  在Train data訓練完的結果無法準確辨識該區域內容，僅能分辨前景、背景
   * 調整模型
-  * 確定NN模型英數字辨識準確率
+  * 確定NN模型英數字辨識準確率()
 ## NN模型
 ###數字辨識
-  ![Image](./read_img/validation1002.gif)
-  ![Image](./read_img/validation1003.png)
-  
+  首先縮減資料難度，僅使用數字的部分，訓練後結果顯著，正確率高
+
+<!--![Image](./read_img/validation1002.gif) -->
+<!--![Image](./read_img/validation1003.png) -->
+<!--   <img src="./read_img/train01.jpg" width="30%" height="30%"> -->
+  <img src="./read_img/validation1002.gif" width="50%" height="50%" >
+  <img src="./read_img/validatuon1003.png" width="50%" height="50%">
 ### 英數字混和辨識
   ![Image](/read_img/validation3402.png)
   在英數字混和辨識中，準確率低
