@@ -18,11 +18,11 @@
 仿照網友提供驗證碼規則，生成英數字混合之圖片（不包含O和I）<br />
 LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 
-|項目|總類|圖示|
+<!--|項目|總類|圖示|
 |---|---|---|
 |Train|英數字混合| <img src="./read_img/train01.jpg" width="30%" height="30%">|
 |驗證10|數字|<img src="./read_img/validation1001.jpg" width="30%" height="30%">|
-|驗證34|英數字混合（同Train）|<img src="./read_img/validation3401.jpg" width="30%" height="30%">|
+|驗證34|英數字混合（同Train）|<img src="./read_img/validation3401.jpg" width="30%" height="30%">| -->
 
 |Item|part1|part2|part3|
 |---|---|---|---|
@@ -44,7 +44,7 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 <!--![Image](./read_img/validation1003.png) -->
 <!--   <img src="./read_img/train01.jpg" width="30%" height="30%"> -->
   <img src="./read_img/validation1002.gif" width="50%" height="50%" >
-  <img src="./read_img/validatuon1003.png" width="50%" height="50%">
+  <img src="./read_img/validatㄛon1003.png" width="50%" height="50%">
 ### 英數字混和辨識
   ![Image](/read_img/validation3402.png)
   在英數字混和辨識中，準確率低
