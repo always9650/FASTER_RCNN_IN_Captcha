@@ -26,7 +26,7 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 
 |Item|part1|part2|part3|part4|
 |:---:|:---:|:---:|:---:|:---:|
-|項目名稱|Faster RCNN(#faster-rcnn)|||||
+|項目名稱|[Faster RCNN](#faster-rcnn)|[數字辨識](#數字辨識)|[英數字混和辨識](#英數字混和辨識)|[英數字未旋轉](#[英數字未旋轉)|
 |Data種類|英數字混合|數字|英數字混合（同part1）|英數字混合(英數字未旋轉)|
 |Train個數|1,2000張|30,000張|35,000張|37,000張|
 |圖例|![Image](./read_img/train01.jpg)|![Image](./read_img/validation1001.jpg)|![Image](./read_img/validation3401.jpg)|![Image](./read_img/.jpg)|
