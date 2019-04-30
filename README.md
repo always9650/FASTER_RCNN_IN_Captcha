@@ -26,9 +26,10 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 
 |Item|part1|part2|part3|part4|
 |---|---|---|---|---|
-|Data種類|英數字混合|數字|英數字混合（同part1）|英數字混合(英數字為旋轉)|
+|Data種類|英數字混合|數字|英數字混合（同part1）|英數字混合(英數字未旋轉)|
 |Train個數|1,2000張|30,000張|35,000張|37,000張|
-|圖例| <img src="./read_img/train01.jpg" width="30%" height="30%">|<img src="./read_img/validation1001.jpg" width="30%" height="30%">|<img src="./read_img/validation3401.jpg" width="30%" height="30%">|<img src="./read_img/validation1001.jpg" width="30%" height="30%">|
+|圖例|![Image](./read_img/train01.jpg)|![Image](./read_img/validtaion1001.jpg)|![Image](./read_img/validtaion3401.jpg)|![Image](./read_img/.jpg)|
+<!-- <img src="./read_img/train01.jpg" width="100%" height="100%">|<img src="./read_img/validation1001.jpg" width="30%" height="30%">|<img src="./read_img/validation3401.jpg" width="30%" height="30%">|<img src="./read_img/validation1001.jpg" width="30%" height="30%">| -->
 
 ## Faster RCNN 
 ### Train 及 Tensorboard 
