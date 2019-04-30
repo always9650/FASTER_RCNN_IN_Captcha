@@ -49,8 +49,10 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 |Item|part1|part2|part3|part4|
 |:---:|:---:|:---:|:---:|:---:|
 |項目名稱|[Faster RCNN](#faster-rcnn)|[數字辨識](#數字辨識)|[英數字混和辨識](#英數字混和辨識)|[英數字未旋轉](#英數字未旋轉)|
-|Train acc|--||0.35|0.65|
-|Test acc |--||表現差|表現良好|
+|Train acc|--|--|0.35|0.65|
+|Test acc |--|--|表現差|表現良好|
+
+預測結果會因英數字旋轉降低預測結果表現
 ####  設備
 
 |Name|Description|
