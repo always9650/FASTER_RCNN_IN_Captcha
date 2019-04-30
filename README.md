@@ -15,7 +15,7 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 |項目名稱|[Faster RCNN](#faster-rcnn)|[數字辨識](#數字辨識)|[英數字混和辨識](#英數字混和辨識)|[英數字未旋轉](#英數字未旋轉)|
 |Data種類|英數字混合|數字|英數字混合（同part1）|英數字混合(英數字未旋轉)|
 |Train個數|1,2000張|30,000張|35,000張|37,000張|
-|圖例|![Image](./read_img/train01.jpg)|![Image](./read_img/validation1001.jpg)|![Image](./read_img/validation3401.jpg)|![Image](./read_img/.jpg)|
+|圖例|![Image](./read_img/train01.jpg)|![Image](./read_img/validation1001.jpg)|![Image](./read_img/validation3401.jpg)|![Image](./read_img/validation3703.jpg)|
 
 
 ## Faster RCNN 
@@ -42,9 +42,9 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
   <img src="./read_img/validation3404.gif" width="45%" height="50%" ><img src="./read_img/validation3403.png" width="45%" height="50%" >
 ### 英數字未旋轉
   訓練結果
-  ![Image]()
+  ![Image](./read_img/validation3701.png)
   Test結果
-  <img src="" width="45%" height="50%" ><img src="" width="45%" height="50%" >
+  <img src="./read_img/validation3702.png" width="50%" height="50%" >
 
 ####  設備
 
