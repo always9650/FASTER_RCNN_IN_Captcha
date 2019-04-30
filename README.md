@@ -42,14 +42,13 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 
 <!--![Image](./read_img/validation1002.gif) -->
 <!--![Image](./read_img/validation1003.png) -->
-<!--   <img src="./read_img/train01.jpg" width="30%" height="30%"> -->
-  <img src="./read_img/validation1002.gif" width="50%" height="50%" >
-  <img src="./read_img/validatㄛon1003.png" width="50%" height="50%">
+  <img src="./read_img/validation1002.gif" width="45%" height="50%" >
+  <img src="./read_img/validation1003.png" width="45%" height="50%">
 ### 英數字混和辨識
   ![Image](/read_img/validation3402.png)
   在英數字混和辨識中，準確率低
  
   ![Image](/read_img/validation3404.gif)
   ![Image](/read_img/validation3403.png)
-  <img src="./read_img/validation3403.png" width="50%" height="50%">
+  <!--<img src="./read_img/validation3403.png" width="50%" height="50%">-->
 
