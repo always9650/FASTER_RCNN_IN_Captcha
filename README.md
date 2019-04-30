@@ -19,7 +19,7 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 
 
 ## Faster RCNN 
-### Faster RCNN
+### Faster RCNN(part1)
   Faster RCNN 分成兩個部分，第一個部分為RPN(Region Proposal Network)，另一個是 Classification；RPN是區分前景跟背景(前景即為我們有興趣的部分，背景則反之)；根據前景、背景接下來交給Classification 區分該內容物。
   
   |RPN|Classification|
@@ -31,20 +31,25 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
   * 調整模型
   * 確定Classification(NN模型)英數字辨識準確率
 ## NN模型
-### 數字辨識
+### 數字辨識 (part2)
   首先縮減資料難度，僅使用數字的部分，訓練後結果顯著，正確率高
   <img src="./read_img/validation1002.gif" width="45%" height="50%"> <img src="./read_img/validation1003.png" width="45%" height="50%">
-### 英數字混和辨識
+### 英數字混和辨識 (part3)
   
   英數字混和訓練中，正確率只有0.35左右
   ![Image](/read_img/validation3402.png)
-  Test結果如下，正確率不高
+  Test結果如下，正確率不高<br />
   <img src="./read_img/validation3404.gif" width="45%" height="50%" ><img src="./read_img/validation3403.png" width="45%" height="50%" >
-### 英數字未旋轉
+### 英數字未旋轉 (part4)
   訓練結果
   ![Image](./read_img/validation3701.png)
   Test結果<br/>
   <img src="./read_img/validation3702.png" width="50%" height="50%" >
+## 總結
+|Item|part1|part2|part3|part4|
+|:---:|:---:|:---:|:---:|:---:|
+|項目名稱|[Faster RCNN](#faster-rcnn)|[數字辨識](#數字辨識)|[英數字混和辨識](#英數字混和辨識)|[英數字未旋轉](#英數字未旋轉)|
+|Data種類|英數字混合|數字|英數字混合（同part1）|英數字混合(英數字未旋轉)|
 
 ####  設備
 
