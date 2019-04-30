@@ -24,11 +24,11 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 |驗證10|數字|<img src="./read_img/validation1001.jpg" width="30%" height="30%">|
 |驗證34|英數字混合（同Train）|<img src="./read_img/validation3401.jpg" width="30%" height="30%">| -->
 
-|Item|part1|part2|part3|
-|---|---|---|---|
-|Data種類|英數字混合|數字|英數字混合（同part1）|
-|Train個數|1,2000張|30,000張|35,000張|
-|圖例| <img src="./read_img/train01.jpg" width="30%" height="30%">|<img src="./read_img/validation1001.jpg" width="30%" height="30%">|<img src="./read_img/validation3401.jpg" width="30%" height="30%">|
+|Item|part1|part2|part3|part4|
+|---|---|---|---|---|
+|Data種類|英數字混合|數字|英數字混合（同part1）|英數字混合(英數字為旋轉)|
+|Train個數|1,2000張|30,000張|35,000張|37,000張|
+|圖例| <img src="./read_img/train01.jpg" width="30%" height="30%">|<img src="./read_img/validation1001.jpg" width="30%" height="30%">|<img src="./read_img/validation3401.jpg" width="30%" height="30%">|<img src="./read_img/validation1001.jpg" width="30%" height="30%">|
 
 ## Faster RCNN 
 ### Train 及 Tensorboard 
@@ -41,8 +41,10 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
   首先縮減資料難度，僅使用數字的部分，訓練後結果顯著，正確率高
   <img src="./read_img/validation1002.gif" width="45%" height="50%"> <img src="./read_img/validation1003.png" width="45%" height="50%">
 ### 英數字混和辨識
+  
+  ##### 英數字混和訓練中，正確率只有0.35左右
   ![Image](/read_img/validation3402.png)
-  在英數字混和辨識中，準確率低
+  ##### Test結果如下
   <img src="./read_img/validation3404.gif" width="45%" height="50%" ><img src="./read_img/validation3403.png" width="45%" height="50%" >
 
 
