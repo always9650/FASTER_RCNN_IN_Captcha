@@ -36,16 +36,18 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
   <img src="./read_img/validation1002.gif" width="45%" height="50%"> <img src="./read_img/validation1003.png" width="45%" height="50%">
 ### 英數字混和辨識
   
-  ##### 英數字混和訓練中，正確率只有0.35左右
+  英數字混和訓練中，正確率只有0.35左右
   ![Image](/read_img/validation3402.png)
-  ##### Test結果如下，正確率不高
+  Test結果如下，正確率不高
   <img src="./read_img/validation3404.gif" width="45%" height="50%" ><img src="./read_img/validation3403.png" width="45%" height="50%" >
 ### 英數字未旋轉
-  ##### 訓練結果
+  訓練結果
   ![Image]()
-  ##### Test結果
+  Test結果
   <img src="" width="45%" height="50%" ><img src="" width="45%" height="50%" >
+
 ####  設備
+
 |Name|Description|
 |----|----|
 |OS|Ubuntu 18.04|
