@@ -39,11 +39,7 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
 ## NN模型
 ###數字辨識
   首先縮減資料難度，僅使用數字的部分，訓練後結果顯著，正確率高
-
-<!--![Image](./read_img/validation1002.gif) -->
-<!--![Image](./read_img/validation1003.png) -->
-  <img src="./read_img/validation1002.gif" width="45%" height="50%" >
-  <img src="./read_img/validation1003.png" width="45%" height="50%">
+  <img src="./read_img/validation1002.gif" width="45%" height="50%"> <img src="./read_img/validation1003.png" width="45%" height="50%">
 ### 英數字混和辨識
   ![Image](/read_img/validation3402.png)
   在英數字混和辨識中，準確率低
