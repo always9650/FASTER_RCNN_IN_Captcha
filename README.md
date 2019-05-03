@@ -24,7 +24,7 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
   
   |RPN|Classification|
   |:---:|:---:|
-  |![Image]()|![Image]()|
+  |![Image](./read_img/RPN01.gif)|<img src="./read_img/classification01.gif" width="30%" heigh="30%">|
 ### Train 及 Tensorboard 
   ![Image](./read_img/train_tensorboard.jpg)
   在Train data訓練完的結果無法準確辨識該區域內容(即Classification表現不好)，僅能分辨前景、背景，接下來能做的有:
