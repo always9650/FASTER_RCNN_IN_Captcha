@@ -8,7 +8,8 @@
 
 #### Data 說明
 仿照網友提供驗證碼規則，生成英數字混合之圖片（不包含O和I）<br />
-LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
+LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ' <br />
+
 |Item|part1|
 |:---:|:---:|
 |項目名稱|[Faster RCNN](#faster-rcnn)|
