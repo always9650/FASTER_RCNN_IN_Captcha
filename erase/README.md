@@ -32,7 +32,7 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
   * 確定Classification(NN模型)英數字辨識準確率
 ## NN模型
 ### 數字辨識 (part2)
-  首先縮減資料難度，僅使用數字的部分，訓練後結果顯著，正確率高
+  首先縮減資料難度，僅使用數字的部分，訓練後結果顯著，正確率高<br />
   <img src="./read_img/validation1002.gif" width="45%" height="50%"> <img src="./read_img/validation1003.png" width="45%" height="50%">
 ### 英數字混和辨識 (part3)
   
