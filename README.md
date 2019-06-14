@@ -10,8 +10,8 @@
 仿照網友提供驗證碼規則，生成英數字混合之圖片（不包含O和I）<br />
 LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ' <br />
 
-|Item|part1|part2 
-|:---:|:---:|:---:|
+|Item|part1|part2 |part3|
+|:---:|:---:|:---:|:---:|
 |項目名稱|[Faster RCNN](#faster-rcnn)|mnist|emnist|
 |Data種類|單張image多個英數字混合|單張image單個數字|單張image單個數字或英文字|
 |Train個數|1,2000張|x 張|x 張|
