@@ -1,0 +1,3 @@
+LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ'
+for i,j in enumerate(LETTERSTR):
+	print(i,j)
