@@ -15,9 +15,9 @@ LETTERSTR = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZ' <br />
 |項目名稱|[Faster RCNN](#faster-rcnn)|mnist|emnist|
 |Data種類|單張image多個英數字混合|單張image單個數字|單張image單個數字或英文字|
 |Train個數|1,2000張|x 張|x 張|
-|圖例|![Image](./read_img/train01.jpg)| | |
-|圖例|![Image](./read_img/train01.jpg)| | |
-|圖例|![Image](./read_img/train01.jpg)| | |
+|圖例|![Image](./read_img/train01.jpg)|![Image](./read_img/minst01.jpg)|![Image](./read_img/emnist01.jpg)|
+|圖例|![Image](./read_img/train01.jpg)|![Image](./read_img/mnist02.jpg)|![Image](./read_img/emnist02.jpg)|
+|圖例|![Image](./read_img/train01.jpg)|![Image](./read_img/mnist03.jpg)|![Image](./read_img/emnist03.jpg)|
 
 
 
